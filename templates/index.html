@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicia Sesión</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  </head>
+  <body>
+    <br>
+    <form method="POST" action="{{ url_for('login')}} " class="a">
+      <input name="nombre" placeholder="Nombre" type="text" required>
+      <br><input name="contraseña" placeholder="Contraseña" type="password" required>
+      <br><button name="boton" value="logearse" type="submit">Login</button>
+      <button name="boton" value="registro" type="submit">Registrate</button>
+    </form>
+  </body>
+</html>
